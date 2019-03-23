@@ -1,0 +1,161 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.search{
+  width: 100%;
+  background:rgb(31, 82, 111);
+  grid-template-columns: 150px auto 150px;
+}
+search img{
+  box-align:center;
+}
+.npm-search{
+  width: 80%;
+}
+.npm-button{
+  background:rgb(31, 82, 111);
+  color:white;
+  width:5%;
+  border-radius:8px;
+  padding:5px;
+}
+header{
+  background:rgb(32, 101, 136);
+  height:300px;
+}
+.build{
+  background-image:url(./images/city-scape.svg);
+  color:white;
+  height:300px;
+  position:abolute;
+  padding-top:40px;
+}
+.build-text{
+  width:400px;
+  margin:0 0 0 200px;
+}
+.build-button{
+  background:rgb(240, 146, 51);
+  color:white;
+  border:none;
+  border-radius:8px;
+  padding:5px;
+}
+.search{
+  background:rgb(31, 82, 111);
+  color: white;
+}
+.collab{
+  padding:0 auto;
+  width:0 auto;
+  font:white;
+  background:rgb(39, 53, 71);
+  height:400px;
+  
+}
+.collab-text{
+  margin:0 auto;
+  color:white;
+  left: 100px;
+}
+.collab-button{
+  background:rgb(203, 56, 55);
+  color:white;
+  border:none;
+  border-radius:8px;
+  padding:5px;
+}
+.collab-link{
+  color:white;
+  text-decoration: none;
+}
+.org-text{
+  width:50%;
+  position: relative;
+  left: 600px;
+  bottom: 150px;
+}
+.collab-image img{
+  position:relative;
+  top:100px;
+  left:180px;
+}
+.npm{
+  background:url(./images/forklift.svg);
+  background-size:cover;
+  position: relative;
+  height:250px;
+}
+.npm-text{
+  position:absolute;
+  color:white;
+  width:300px;
+  padding-left:200px;
+}
+.npm-button{
+  color:white;
+  background:rgb(49, 68, 88);
+  width:100px;
+  border:none;
+}
+.blocks{
+  height:200px;
+}
+.heading{
+  margin:0 auto;
+  color:rgb(83, 88, 98);
+}
+.second{
+  color:rgb(135,145,156);
+  width:33%; 
+}
+.registry{
+  background: white;
+}
+.link{
+  color:rgb(208, 74, 73);
+  text-decoration: none;
+}
+.blocks{
+  color:rgb(83, 88, 98);
+  text-align:center;
+}
+.block-items{
+  color:gb(135, 145, 156);
+  padding-bottom:100px;
+}
+.block-links{
+color:rgb(208, 74, 73);
+text-decoration:none;
+}
+.block-image{
+  width:33%;
+  text-align:center;
+  margin:0 auto;
+  display:inline-block;
+
+}
+.block-image p{
+  vertical-align: top;
+}
